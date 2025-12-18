@@ -38,13 +38,6 @@ Each folder contains its own project with specific documentation and requirement
 - [assets-model-parallel](./assets-model-parallel/README.md)
 - [asset-boiler](./asset-boiler/README.md)
 
-### Original Repositories
-
-- [Boiler_Data_Tool](https://github.com/dataasset25/Boiler_Data_Tool)
-- [simple_pipeline](https://github.com/dataasset25/simple_pipeline)
-- [assets-model-parallel](https://github.com/dataasset25/assets-model-parallel)
-- [asset-boiler](https://github.com/dataasset25/asset-boiler)
-
 ## 🔧 Requirements
 
 - Python 3.x
