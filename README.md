@@ -13,8 +13,6 @@ assetblue-data/
 ├── assets-model-parallel/      # Asset model processing with parallel execution
 ├── asset-boiler/               # Asset and boiler management tools
 ├── README.md                   # This file
-├── MIGRATION_GUIDE.md          # Detailed migration instructions
-└── migrate-repos.ps1          # PowerShell script for automated migration
 ```
 
 ## 🚀 Getting Started
@@ -31,10 +29,6 @@ cd assetblue-data
 .\migrate-repos.ps1
 ```
 
-### Manual Migration
-
-See [MIGRATION_GUIDE.md](./MIGRATION_GUIDE.md) for detailed step-by-step instructions.
-
 ## 📖 Project Documentation
 
 Each folder contains its own project with specific documentation and requirements. Please refer to the README.md file in each respective folder for detailed instructions:
@@ -43,10 +37,6 @@ Each folder contains its own project with specific documentation and requirement
 - [simple_pipeline](./simple_pipeline/README.md)
 - [assets-model-parallel](./assets-model-parallel/README.md)
 - [asset-boiler](./asset-boiler/README.md)
-
-## 📝 Migration Notes
-
-This repository was created by consolidating 4 separate repositories into a single unified structure for better organization and maintenance.
 
 ### Original Repositories
 
