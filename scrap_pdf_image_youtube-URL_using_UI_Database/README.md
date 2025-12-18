@@ -50,7 +50,7 @@ A modern, scalable web scraping pipeline that extracts PDFs, Images, and YouTube
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd simple_pipeline
+   cd scrap_pdf_image_youtube-URL_using_UI_Database
    ```
 
 2. **Start Database**
@@ -157,7 +157,7 @@ A modern, scalable web scraping pipeline that extracts PDFs, Images, and YouTube
 ## Project Structure
 
 ```
-simple_pipeline/
+scrap_pdf_image_youtube-URL_using_UI_Database/
 ├── backend/
 │   ├── app/
 │   │   ├── config.py          # Configuration settings

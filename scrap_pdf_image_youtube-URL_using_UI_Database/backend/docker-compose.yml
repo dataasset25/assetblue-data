@@ -1,7 +1,7 @@
 services:
   db:
     image: postgres:15-alpine
-    container_name: simple_pipeline-db
+    container_name: scrap_pdf_image_youtube-URL_using_UI_Database-db
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -18,7 +18,7 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4:latest
-    container_name: simple_pipeline-pgadmin
+    container_name: scrap_pdf_image_youtube-URL_using_UI_Database-pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin

@@ -118,8 +118,8 @@ Adds Cloudflare R2 public URLs to the CSV for successfully downloaded files.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/dataasset25/asset-boiler.git
-cd asset-boiler
+git clone https://github.com/dataasset25/assetblue-data.git
+cd Find_Models+manufacturers_Using_Parallel_AI_With_Scrap_Data
 ```
 
 2. Install dependencies:
