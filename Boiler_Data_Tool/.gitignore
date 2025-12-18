@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Exclude all data/downloade content directories
+downloaded_data/
+boiler_image_urls/
+boiler_specific_downloads/
+scraped_data/
+processed_data/
+reports/
+# But allow boiler_keywords in boiler_images (they are input files)
+!/boiler_images/boiler_keywords/
+
+# Exclude video/image data
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+
+# Exclude document files
+*.pdf
+*.doc
+*.docx
+*.htm
+*.html
+
+# Exclude data files (csv, json, txt, xlsx)
+*.csv
+*.json
+*.xlsx
+*.log
+
+# Exclude txt files EXCEPT important input files
+*.txt
+!/youtube/keywords.txt
+!/youtube/keywords2.txt
+!/youtube/keywords3.txt
+!/boiler_images/boiler_keywords/*.txt
+
+# Exclude boiler-specific directories in youtube folder
+*_boiler/
+*_boiler_videos/
+modular_boiler/
+fire_tube_scotch_marine_boiler/
+package_water_tube_boiler/
+heat_recovery_steam_generator_boiler/
+waste_heat_recovery_boiler/
+pulverized_coal_boiler/
+stoker_fired_boiler/
+biomass_boiler/
+electric_boiler/
+condensing_boiler/
+subcritical_drum_boiler/
+subcritical_drum_boiler_videos/
+supercritical_once_through_boiler/
+ultra_supercritical_boiler/
+cfb_circulating_fluidized_bed_boiler/
+bfb_bubbling_fluidized_bed_boiler/
+urls_output/
+
+# Include sample_data.csv and README files
+!sample_data.csv
+!README.md
+!requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Configuration (may contain sensitive info)
+config.py
+*config*.py
+
+# Temporary files
+*.tmp
+*.temp
+
